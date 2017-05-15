@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Event Organisers</title>
+	<link rel="stylesheet" href="Event Planner.css" type="text/css" charset="utf-8" />
+	
+</head>
+
+<body>
+  <div id="wrapper">
+    
+    <div id="header">
+      <div id="logo">
+        <h1>Event Organiserzz</h1>
+        <p>Your Event-Our Creativity</p>
+      </div>
+      
+      <div id="nav">
+        <ul>
+          <li><a href="index.html">Homepage</a> | </li>
+          <li><a href="About us.html">About us</a> | </li>
+          <li><a href="Image Gallery.html">Image Gallery</a> | </li>
+          <li><a href="">Event Planner</a> | </li>
+          <li><a href="Case Studies.html">Case Studies</a> | </li>
+          <li><a href="Contact us.html">Contact us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="body">
+      <div id="categories">
+        <h2>Categories</h2>
+        <ul>
+          <li><a href="Corporate Events.html">Corporate Events</a></li>
+          <li><a href="Personal Events.html">Personal Events</a></li>
+          <li><a href="Cultural events.html">Cultural Events</a></li>
+        </ul>
+      </div>
+      <div id="seasonal">
+        <div class="inner">
+          <h2>Event Planner</h2>
+          <h3>Enter Event Details</h3>
+            <form name="f" method="post" action="wedding.asp" id="f" onsubmit="return validate(this)">
+ 
+        <table border="0" cellpadding="0" cellspacing="0" style="width: 98%">
+            <tr>
+                <td style="width: 10%">                </td>
+                <td>                </td>
+                <td style="width: 10%">                </td>
+            </tr>
+            <tr >
+                <td style="width:10%">                </td>
+                <td>                </td>
+                <td style="width:10%">                </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>&nbsp;</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                
+              </table></td>
+              <td></td>
+            </tr>
+            <tr>
+                <td>                </td>
+                <td>
+                <table width="100%" border="1"  cellpadding="4" cellspacing="0" bordercolor="#F2F2F2" bgcolor="#FFFFFF" style="border-collapse:collapse">
+                       
+                        <tr> 
+                            <td width="27%" class="tcuser_style"><span class="style14">
+                              Name*</span></td>
+                            <td colspan="2" >
+                                <input name="txtName" type="text" id="txtName" class="textfield_default_nowidth" /></td>
+                        </tr>
+                        <tr>
+                            <td class="tcuser_style"><span class="style14">
+                              Email*</span></td>
+                            <td colspan="2">
+                                <input name="txtEmail" type="text" id="txtEmail" class="textfield_default_nowidth" /></td>
+                        </tr>
+                        <tr>
+                            <td class="tcuser_style"><span class="style14">
+                              Mobile*</span></td>
+                            <td colspan="2">
+                                <input name="txtMobile" type="text" class="textfield_default_nowidth" id="txtMobile" onchange="this.value=extractNumeric(this.value)" onkeypress="return isNumericKey(event)" maxlength="10" /></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <td class="tcuser_style"><span class="style14"> Venue Of&nbsp; Event*</span></td>
+                            <td width="25%">
+                                <select name="ddlState" id="ddlState" class="textfield_default_nowidth">
+	<option value="0">Select City</option>
+	<option value="Agra">Agra</option>
+	<option value="Ahmedabad">Ahmedabad</option>
+	<option value="Ahmednagar">Ahmednagar</option>
+	<option value="Akola">Akola</option>
+	<option value="Allahabad">Allahabad</option>
+	<option value="Almora">Almora</option>
+	<option value="Amritsar">Amritsar</option>
+	<option value="Aurangabad">Aurangabad</option>
+	<option value="Bangalore/Bengaluru">Bangalore/Bengaluru</option>
+	<option value="Belgaum">Belgaum</option>
+	<option value="Bhopal">Bhopal</option>
+	<option value="Bhubaneshwar">Bhubaneshwar</option>
+	<option value="Bikaner">Bikaner</option>
+	<option value="Bodh gaya">Bodh gaya</option>
+	<option value="Chandigarh">Chandigarh</option>
+	<option value="Chennai/Madras">Chennai/Madras</option>
+	<option value="Cochin/Kochi">Cochin/Kochi</option>
+	<option value="Coimbatore">Coimbatore</option>
+	<option value="Dalhousie">Dalhousie</option>
+	<option value="Ernakulum">Ernakulum</option>
+	<option value="Gangtok">Gangtok</option>
+	<option value="Goa">Goa</option>
+	<option value="Guwahati">Guwahati</option>
+	<option value="Gwalior">Gwalior</option>
+	<option value="Haridwar">Haridwar</option>
+	<option value="Hyderabad">Hyderabad</option>
+	<option value="IDR">Indore</option>
+	<option value="Indore">Jaipur</option>
+	<option value="Jaisalmer">Jaisalmer</option>
+	<option value="Jamshedpur">Jamshedpur</option>
+	<option value="Jhansi">Jhansi</option>
+	<option value="Jodhpur">Jodhpur</option>
+	<option value="Kannur">Kannur</option>
+	<option value="Khajuraho">Khajuraho</option>
+	<option value="Kolkata/Calcutta">Kolkata/Calcutta</option>
+	<option value="Kullu">Kullu</option>
+	<option value="Lucknow">Lucknow</option>
+	<option value="Madurai">Madurai</option>
+	<option value="Mumbai/Bombay">Mumbai/Bombay</option>
+	<option value="Mysore">Mysore</option>
+	<option value="Nagpur">Nagpur</option>
+	<option value="Nainital">Nainital</option>
+	<option selected="selected" value="New Delhi">New Delhi</option>
+	<option value="Palampur">Palampur</option>
+	<option value="Patna">Patna</option>
+	<option value="Pune">Pune</option>
+	<option value="Ranchi">Ranchi</option>
+	<option value="Ranikhet">Ranikhet</option>
+	<option value="Shimla">Shimla</option>
+	<option value="Srinagar">Srinagar</option>
+	<option value="Tirupur">Tirupur</option>
+	<option value="Trichy">Trichy</option>
+	<option value="Trivandrum">Trivandrum</option>
+	<option value="Udaipur">Udaipur</option>
+	<option value="Vadodara">Vadodara</option>
+	<option value="Varanasi/Banaras">Varanasi/Banaras</option>
+	<option value="Visakhapatnam">Visakhapatnam</option>
+</select></td>
+                            <td width="48%"><input name="txtcity" type="text" id="txtcity" class="textfield_default_nowidth" /></td>
+                        </tr>
+                        <tr>
+                            <td class="tcuser_style"><span class="style14">
+                              Date Of Event*</span></td>
+                            <td colspan="2">
+                            <input name="txtWeddingDate" type="text" class="textfield_default_nowidth" readonly="Readonly" id="txtWeddingDate" />                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="tcuser_style"><span class="style14">
+                              Guests Expected</span></td>
+                            <td colspan="2">
+                                <input name="txtGuests" type="text" id="txtGuests" class="textfield_default_nowidth" onkeypress="return isNumericKey(event)" onchange="this.value=extractNumeric(this.value)" /></td>
+                        </tr>
+                        <tr>
+                          <td class="tcuser_style"><span class="style14">Event Theme </span></td>
+                          <td colspan="2"><input name="txtWeddingtheme" type="text" id="txtWeddingtheme" class="textfield_default_nowidth" /></td>
+                        </tr>
+                        <tr>
+                            <td class="tcuser_style"><span class="style14">
+                              Budget Of Event</span></td>
+                            <td colspan="2">
+                                <select name="ddlBudget" id="ddlBudget" class="textfield_default_nowidth">
+	<option value="0">Select Budget</option>
+	<option value="Below 5 Lakh">Below 5 Lakh</option>
+	<option value="Between 5 to 10 Lakh">Between 5 to 10 Lakh</option>
+	<option value="Between 10 to 15 Lakh">Between 10 to 15 Lakh</option>
+	<option value="Between 15 to 20 Lakh">Between 15 to 20 Lakh</option>
+	<option value="Above 20 Lakh">Above 20 Lakh</option>
+</select></td>
+                        </tr>
+                    
+                        <tr>
+                          <td class="tcuser_style"><span class="style14">Music</span></td>
+                          <td colspan="2"><table width="100%" border="0" cellpadding="0" cellspacing="1">
+                            <tr>
+                              <td><input name="rbmusic" type="checkbox" id="rbdj" value="DJ" checked="checked" />
+                              <label for="rbdj" >DJ</label></td>
+                              <td><input id="rbqwl" name="rbmusic" type="checkbox" value="Qawali" />
+                              <label for="rbqwl" >Qawali</label></td>
+                              <td><input id="liveorc" name="rbmusic" type="checkbox" value="Live Orchestra" />
+                              <label for="liveorc" >Live Orchestra</label></td>
+                              <td><input id="rbtramusic" name="rbmusic" type="checkbox" value="Traditional Music" />
+                              <label for="rbtramusic" >Traditional Music</label></td>
+                              <td><input id="rbceleperform" name="rbmusic" type="checkbox" value="Celebrity Performance" />
+                              <label for="rbceleperform" >Celebrity Performance</label></td>
+                            </tr>
+                          </table></td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="tcuser_style"><span class="style14">
+                              Photographer</span></td>
+                            <td colspan="2"><table id="rblPhoto" border="0">
+	<tr>
+		<td><input id="rblPhoto_0" type="radio" name="rblPhoto" value="Yes" /><label for="rblPhoto_0">Yes</label></td><td><input id="rblPhoto_1" type="radio" name="rblPhoto" value="No" checked="checked" /><label for="rblPhoto_1">No</label></td>
+	</tr>
+</table></td>
+                        </tr>
+                        <tr>
+                            <td class="tcuser_style"><span class="style14">
+                              Videographer</span></td>
+                            <td colspan="2"><table id="rblVideo" border="0">
+	<tr>
+		<td><input id="rblVideo_0" type="radio" name="rblVideo" value="Yes" /><label for="rblVideo_0">Yes</label></td><td><input id="rblVideo_1" type="radio" name="rblVideo" value="No" checked="checked" /><label for="rblVideo_1">No</label></td>
+	</tr>
+</table></td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <td class="tcuser_style"><span class="style14">
+                              </span></td>
+                            <td colspan="2"></td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                          <td colspan="2"><input type="submit" name="Submit" value="Submit"/>
+                              &nbsp;
+                          </td>
+                        </tr>
+</table>                </td>
+                <td>                </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>&nbsp;</td>
+              <td></td>
+            </tr>
+            <tr>
+                <td >                </td>
+                <td>                </td>
+                <td>                </td>
+            </tr>
+            <tr>
+              <td ></td>
+              <td></td>
+              <td></td>
+            </tr>
+        </table>
+   
+    
+<div>
+    &nbsp;</div></form>
+	</div>
+      </div>
+          
+      <div class="clear"> </div>
+      <div id="seas">
+        <div id="seas-one">
+          <a href="Corporate Events.html"><p>Corporate</p>
+          <p class="date">Events</p></a>
+        </div>
+        <div id="seas-two">
+          <a href="Personal Events.html"><p>Wedding's</p>
+          <p class="date"></p></a>
+        </div>
+        <div id="seas-three">
+          <a href="Birthday.html"><p>Birthday's</p>
+          <p class="date"></p></a>
+        </div>
+        <div class="clear"> </div>
+      </div>
+    </div>
+    <div id="copyright">
+      <p>Copyright &copy; 2011. AABV(JSS/BCA/MINOR PROJECT) all rights reserved</p>
+    </div>
+  </div>
+</body>
+</html>

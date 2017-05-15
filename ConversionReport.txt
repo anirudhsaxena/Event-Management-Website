@@ -1,0 +1,4 @@
+﻿ERROR: Unable to parse project file WindowsApplication1.vbproj.
+
+=========================COMMENTS=================
+Project WindowsApplication1.vbproj has been converted successfully at March 12 2012, 20:11:54.

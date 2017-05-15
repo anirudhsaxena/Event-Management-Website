@@ -1,0 +1,248 @@
+﻿html, body, h1, h2, h3, h4, ul, li {
+	margin: 0;
+	padding: 0;
+}
+h1 img{
+	display: block;
+}
+img {
+	border: 0;
+}
+a {
+	color: #464544;
+}
+a:hover {
+	color: #FFA405;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+
+body {
+	background: #504634;
+	text-align: center;
+	font: 12px verdana, arial, sans-serif;
+	color: #695F4C;
+	padding-bottom: 10px;
+}
+
+/** layout **/
+#wrapper {
+	text-align: left;
+	margin: 37px auto;
+	width: 672px;
+	background: #ffffff;
+  position: relative;
+}
+
+#header {
+  background: #f4eddb url(eventorg/images/header.jpg) no-repeat;
+  height: 466px;
+}
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 290px;
+  color: #52616E;
+}
+#logo h1 {
+  font: bold 55px "Times New Roman",Times New Roman, sans-serif;
+color:	White;
+}
+#logo p {
+  margin: 0;
+  font-weight: bold;
+font: bold 25px "Times New Roman",Times New Roman, sans-serif;
+color:White;
+}
+#nav {
+  background: #4B5360;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  width: 672px;
+  padding: 9px 0;
+  text-align: center;
+}
+#nav li {
+  list-style: none;
+  display: inline;
+  color: #fff;
+}
+#nav a {
+  text-decoration: none;
+  color: #fff;
+}
+#gallery {
+  position: absolute;
+  top: 155px;
+  left: 287px;
+  width: 385px;
+}
+#gallery li {
+  list-style: none;
+  text-indent: -999px;
+  float: left;
+  overflow: hidden;
+  height: 111px;
+}
+#gallery .gwomen {
+  background: url(images/pic_1.jpg) no-repeat;
+  width: 127px;
+}
+#gallery .gkids {
+  background: url(images/pic_2.jpg) no-repeat;
+  width: 130px;
+}
+#gallery .gmen {
+  background: url(images/pic_3.jpg) no-repeat;
+  width: 128px;
+}
+
+#body {
+  padding-top: 3px;
+  background-color:#FFF;
+}
+#categories {
+  float: left;
+  width: 195px;
+}
+
+#seasonal, #collection {
+  float: right;
+  width: 474px;
+  background: #D4CAB6;
+  margin-bottom: 2px;
+}
+#seasonal .inner, #collection .inner {
+  padding: 6px 12px;
+}
+#seasonal p, #collection p {
+  margin: 0.9em 0;
+}
+
+.more a {
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+}
+.more a:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  font: bold 14px "arial narrow", arial, sans-serif; 
+  color: #1B1812;
+}
+
+h2 {
+  font: 18px "arial narrow", arial, sans-serif; 
+  color: #695F4C;
+  padding-bottom: 10px;
+}
+#categories h2 {
+  color: #fff;
+  padding: 4px 0 5px 39px;
+  background: #847A67;
+}
+#categories li {
+  background: #D4CAB6 left url(eventorg/images/bullet.gif) no-repeat;
+  border-top: 1px solid #F4EFDF;
+  list-style: none;
+  font-size: 12px;
+  padding: 7px 0 8px 35px;
+}
+#categories a {
+  text-decoration: none;
+  color: #000000;
+}
+#categories a:hover {
+  text-decoration: underline;
+}
+
+#collection {
+  background: #D4CAB6 bottom right url() no-repeat;
+}
+#collection .inner {
+  padding-right: 98px;
+}
+#minigal {
+  float: right;
+  width: 222px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#minigal div {
+  float: left;
+  margin: 6px;
+}
+#collection ul {
+  margin-left: 1.5em;
+}
+#collection li {
+  margin: 0.2em 0;
+  color: #463F32;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "arial narrow", arial, sans-serif;
+}
+#collection p {
+  width: 103px;
+  margin-left: 1.5em;
+}
+
+#seas-one, #seas-two, #seas-three {
+  height: 146px;
+  
+}
+
+
+
+#seas-one {
+  float: left;
+  width: 195px;
+  margin-right: 3px;
+  background: url(eventorg/images/foot_1.jpg) no-repeat;
+}
+
+#seas-two {
+  float: left;
+  width: 249px;
+  margin-right: 3px;
+  background: url(eventorg/images/foot_2.jpg) no-repeat;
+}
+
+
+#seas-three {
+  float: left;
+  width: 222px;
+  background: url(eventorg/images/foot_3.jpg) no-repeat;
+}
+
+#seas p {
+  text-align: right;
+  color: #000;
+  margin: 80px 15px 0 0;
+  font-size: 23px;
+  font-weight: bold;
+}
+#seas p.date {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 9px;
+  padding: 3px;
+}
